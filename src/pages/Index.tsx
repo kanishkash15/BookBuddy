@@ -17,7 +17,7 @@ const Index = () => {
         {/* How it works section */}
         <div className="bg-bookblue-50 py-12 px-4">
           <div className="container mx-auto">
-            <h2 className="text-2xl md:text-3xl font-bold text-center text-bookblue-900 mb-12">How BookBuddy Works</h2>
+            <h2 className="text-2xl md:text-3xl font-bold text-center text-bookblue-900 mb-12">How Eduvault Works</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-lg shadow-md text-center">
                 <div className="w-16 h-16 bg-bookorange-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -48,7 +48,7 @@ const Index = () => {
         <div className="bg-gradient-to-r from-bookblue-800 to-bookblue-900 text-white py-16 px-4">
           <div className="container mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-6">Ready to save on textbooks?</h2>
-            <p className="text-lg mb-8 max-w-2xl mx-auto">Join BookBuddy today and connect with students on your campus to buy and sell textbooks at reasonable prices.</p>
+            <p className="text-lg mb-8 max-w-2xl mx-auto">Join Eduvault today and connect with students on your campus to buy and sell textbooks at reasonable prices.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link to="/signup">
                 <Button className="bg-bookorange-500 hover:bg-bookorange-600 text-white py-6 px-8 text-lg">

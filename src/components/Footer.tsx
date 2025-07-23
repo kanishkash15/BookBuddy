@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <BookOpen className="h-6 w-6" />
-              <span className="font-bold text-xl">BookBuddy</span>
+              <span className="font-bold text-xl">Eduvault</span>
             </Link>
             <p className="text-bookblue-100 mb-4">
               A student-to-student book marketplace for affordable textbooks and course materials.
@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-bookblue-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-bookblue-100">&copy; {new Date().getFullYear()} BookBuddy. All rights reserved.</p>
+          <p className="text-bookblue-100">&copy; {new Date().getFullYear()} Eduvault. All rights reserved.</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-bookblue-100 hover:text-white">
               <span className="sr-only">Facebook</span>
