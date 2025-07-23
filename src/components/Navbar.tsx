@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="hidden md:block flex-1 px-10">
             <SearchBar />
           </div>
-          
+          {/* comment */}
           <div className="hidden md:flex items-center space-x-4">
             <Link to="/search">
               <Button variant="ghost">Browse Books</Button>
